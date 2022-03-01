@@ -2,7 +2,7 @@
 Get Install Software
 ```sh
 git clone https://github.com/sonnyyu/k8s-metallb
-cd ansible-k8s-ubuntu
+cd k8s-metallb
 ```
 Setup Metallb
 ```sh
