@@ -33,3 +33,11 @@ kubectl delete -f config.yaml
 kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
 kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
 ```
+Remove unused pod
+```sh
+kubectl get ns
+kubectl get pods --all-namespaces
+kubectl describe pod/<pod_name>
+kubectl delete statefulset <pod_name> -n <name_space>
+kubectl get pods --all-namespaces
+```
