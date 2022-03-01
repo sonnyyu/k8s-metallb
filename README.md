@@ -30,8 +30,8 @@ kubectl delete svc <service_name>
 kubectl get deployments --all-namespaces
 kubectl delete deployment <deployment_name>
 kubectl delete -f config.yaml
-kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
 kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/metallb.yaml
+kubectl delete -f https://raw.githubusercontent.com/metallb/metallb/v0.12.1/manifests/namespace.yaml
 ```
 Remove unused pod
 ```sh
