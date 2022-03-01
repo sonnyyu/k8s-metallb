@@ -1,4 +1,10 @@
 # k8s-metallb
+Get Install Software
+```sh
+git clone https://github.com/sonnyyu/k8s-metallb
+cd ansible-k8s-ubuntu
+```
+Setup Metallb
 ```sh
 kubectl get nodes
 kubectl get pods --all-namespaces
